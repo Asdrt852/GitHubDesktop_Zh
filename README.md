@@ -1,5 +1,5 @@
 # GitHubDesktop_Zh
-20210303 GitHubDesktop2.6.3汉化（慢慢填坑）
+20210303 GitHubDesktop汉化（慢慢填坑）
 
 食用方法：
 下载main.js和renderer.js替换
