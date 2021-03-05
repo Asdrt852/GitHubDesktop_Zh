@@ -4,4 +4,4 @@
 食用方法：
 下载main.js和renderer.js替换
 原文件地址：（替换前做好原文件备份）
-C:\Users\User\AppData\Local\GitHubDesktop\app-2.6.3\resources\app
+C:\Users\User\AppData\Local\GitHubDesktop\app-2.6.X\resources\app
