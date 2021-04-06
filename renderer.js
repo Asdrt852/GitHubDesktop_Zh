@@ -43012,14 +43012,14 @@ object-assign
           case Wi.Binary:
           case Wi.Image:
             throw new Error(
-              "Can't create partial commit in binary file: " + t.path
+              "无法在二进制文件中创建部分提交: " + t.path
             );
           case Wi.Unrenderable:
             throw new Error(
-              "File diff is too large to generate a partial commit: " + t.path
+              "文件差异太大，无法生成部分提交: " + t.path
             );
           default:
-            X(0, "Unknown diff kind: " + e);
+            X(0, "未知的差异种类: " + e);
         }
       }
       const r = await Os(t, n);
@@ -57149,7 +57149,7 @@ object-assign
     }
     (Mf.ModeName = "github-diff-syntax"),
       up.defineMode(Mf.ModeName, function (e, t) {
-        if (!t) throw new Error("I needs me some options");
+        if (!t) throw new Error("我需要一些选择");
         return new Mf(t.hunks, t.oldTokens, t.newTokens);
       });
     n(287), n(288), n(289);
